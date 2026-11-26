@@ -1,0 +1,12 @@
+build/
+rutas.ini
+pruebas/practicas_pc.c
+pruebas/simulador.exe
+*.mcppi
+*.mcl
+*.lst
+*.asm
+*.dbg
+*.log
+~$*.xlsx
+__pycache__/

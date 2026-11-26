@@ -1,0 +1,14 @@
+name: pruebas
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  simulador:
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Correr el simulador (practicas.c en la PC)
+        shell: powershell
+        run: powershell -NoProfile -ExecutionPolicy Bypass -File pruebas\correr.ps1
